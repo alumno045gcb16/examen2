@@ -1,6 +1,6 @@
 // JavaScript Document
-$(document).ready(function(e) {
-    document.addEventListener(("deviceready",function(){
+$(document).ready(function(e){
+    document.addEventListener("deviceready",function(){
 		$('#disp table td').eq(3).text(device.modal);
 		$('#disp table td').eq(5).text(device.cordova);
 		$('#disp table td').eq(7).text(device.platform);
